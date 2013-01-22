@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9A9098716AE0951000CB655 /* BirdsSighting.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9098616AE0951000CB655 /* BirdsSighting.m */; };
+		E9A9098B16AE0D7F000CB655 /* BirdsSightingDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9098A16AE0D7F000CB655 /* BirdsSightingDataController.m */; };
 		E9AA77B516ADF9C2000D171E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AA77B416ADF9C2000D171E /* UIKit.framework */; };
 		E9AA77B716ADF9C2000D171E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AA77B616ADF9C2000D171E /* Foundation.framework */; };
 		E9AA77B916ADF9C2000D171E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AA77B816ADF9C2000D171E /* CoreGraphics.framework */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9A9098516AE0951000CB655 /* BirdsSighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdsSighting.h; sourceTree = "<group>"; };
+		E9A9098616AE0951000CB655 /* BirdsSighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdsSighting.m; sourceTree = "<group>"; };
+		E9A9098916AE0D7F000CB655 /* BirdsSightingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdsSightingDataController.h; sourceTree = "<group>"; };
+		E9A9098A16AE0D7F000CB655 /* BirdsSightingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdsSightingDataController.m; sourceTree = "<group>"; };
 		E9AA77B016ADF9C2000D171E /* BirdWatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdWatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AA77B416ADF9C2000D171E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9AA77B616ADF9C2000D171E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +100,10 @@
 				E9AA77D216ADF9C2000D171E /* BirdsDetailViewController.h */,
 				E9AA77D316ADF9C2000D171E /* BirdsDetailViewController.m */,
 				E9AA77BB16ADF9C2000D171E /* Supporting Files */,
+				E9A9098516AE0951000CB655 /* BirdsSighting.h */,
+				E9A9098616AE0951000CB655 /* BirdsSighting.m */,
+				E9A9098916AE0D7F000CB655 /* BirdsSightingDataController.h */,
+				E9A9098A16AE0D7F000CB655 /* BirdsSightingDataController.m */,
 			);
 			path = BirdWatching;
 			sourceTree = "<group>";
@@ -183,6 +193,8 @@
 				E9AA77C516ADF9C2000D171E /* BirdsAppDelegate.m in Sources */,
 				E9AA77D116ADF9C2000D171E /* BirdsMasterViewController.m in Sources */,
 				E9AA77D416ADF9C2000D171E /* BirdsDetailViewController.m in Sources */,
+				E9A9098716AE0951000CB655 /* BirdsSighting.m in Sources */,
+				E9A9098B16AE0D7F000CB655 /* BirdsSightingDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				E9AA77D916ADF9C2000D171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
